@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GRADIOUS JS ASSIGNMENT-1</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="main">
+
+</br>
+<div id="heading">Job Application Form</div>
+<div id="subheading">Please Fill Out the Form Below to Submit Your Job Application</div></br>
+<hr id="hline"></br>
+
+<form id="mainform">
+Name <span class="star">*</span></br>
+<input type="text" size="40" id="fl1box" onkeypress="return restrictAlphabets(event)" required/>
+<input type="text" size="40" id="fl2box" onkeypress="return restrictAlphabets(event)" required/></br>
+<span class="flabel">First Name</span><span id="llabel">Last Name</span></br></br></br>
+E-mail <span class="star">*</span><span id="pno">Phone Number <span class="star">*</span></span></br>
+<input type="email" size="40" placeholder="ex: myname@example.com" id="mail" required/>
+<input type="tel" placeholder="000-000-0000" size="40" id="telle" oninput="validateInput()" maxlength="12" required/></br>
+<span class="flabel">example@example.com</span></br></br></br>
+Gender</br>
+<input type="radio" name="Gender" id="male" value="Male" required>Male</br>
+<input type="radio" name="Gender" id="female" value="Female" required>Female</br>
+<input type="radio" name="Gender" id="trans" value="Transgender" required>Transgender</br></br></br>
+Current City</br>
+<select id="selc" required>
+<option value="">Please Select</option>
+<option value="Nalgonda">Nalgonda</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Khammam">Khammam</option>
+<option value="Kurnool">Kurnool</option>
+<option value="Banglore">Banglore</option>
+</select></br></br></br>
+Applied Position<span id="epsd">Earliest Possible Start Date</span></br>
+<input type="text" size="40" id="apppos" onkeypress="return restrictAlphabets(event)" required/>
+<input type="date" id="dt" required/></br>
+<span id="dlabel">Date</span></br></br></br>
+Preferred Interview Date</br>
+<div class="pdate">
+<input type="date" class="selected-date" id="datepicker" onchange="displayDate()" required/>
+<div>
+<div class="lgarrow"><div id="displayDate"></div><div id="b"><button id="larrow"><</button><span><button id="rarrow">></button></span></div></div>
+
+<div><button type="button" id="lbtn1">11:30 AM</button><button type="button" id="rbtn1">12:30 PM</button></div>
+
+<div><button type="button" id="lbtn2">1:30 PM</button><button type="button" id="rbtn2">4:30 PM</button></div>
+
+<div><button type="button" id="lbtn3">5:30 PM</button><button type="button" id="rbtn3">6:30 PM</button></div>
+</div>
+</div>
+
+
+</br></br></br>
+Upload Resume<span class="star">*</span></br>
+<div id="drop-zone">
+</br>
+<center><img src="./images/cloud-arrow-up-solid.svg" id="cloudimg"/></center>
+<div id="cl1">Upload a File</div>
+<div id="cl2">Drag and drop files here</div>
+</div>
+</br>
+</br>
+</br>
+<div id="btndiv"><button type="submit" id="btn" onclick="submitForm(event)">Apply</button></div>
+</form>
+</div>
+<div class="overlay" id="overlay">
+    <div class="popup">
+        <p id="popupMessage"></p>
+        <div id="inbtndiv"><button id="inbtn" onclick="closePopup()">Close</button></div>
+    </div>
+</div>
+</br>
+</br>
+</br>
+</br>
+<script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+#main{
+  align-items: center;
+}
+#heading {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+#subheading {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+#hline {
+  color: #d8dbdc;
+  width: 100%;
+}
+#mainform {
+  padding-left: 320px;
+}
+#fl1box {
+  height: 30px;
+}
+#apppos {
+  height: 30px;
+}
+#mail {
+  height: 30px;
+}
+#fl2box {
+  margin-left: 60px;
+  height: 30px;
+}
+#telle {
+  margin-left: 60px;
+  height: 30px;
+}
+.flabel {
+  color: gray;
+}
+#llabel {
+  margin-left: 315px;
+  color: gray;
+}
+.star {
+  color: red;
+}
+#pno {
+  margin-left: 325px;
+}
+#selc {
+  height: 30px;
+  width: 312px;
+}
+#epsd {
+  margin-left: 274px;
+}
+#dt {
+  width: 312px;
+  margin-left: 62px;
+  height: 30px;
+}
+#dlabel {
+  margin-left: 385px;
+  color: gray;
+}
+#datepicker {
+  height: 30px;
+  width: 312px;
+}
+#drop-zone {
+  border: dashed;
+  height: 130px;
+  width: 690px;
+  border-color: gray;
+  border-width: 1px;
+}
+#btndiv {
+  margin-left: 310px;
+}
+#btn {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100px;
+}
+#btn:hover {
+  cursor: pointer;
+}
+.pdate {
+  display: flex;
+}
+#larrow {
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+}
+#rarrow {
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 5px;
+}
+#lbtn1 {
+  border: 1px solid #1444f5;
+  border-radius: 5px;
+  margin-left: 65px;
+  padding: 8px;
+  width: 150px;
+  margin-top: 3px;
+  background-color: white;
+}
+#rbtn1 {
+  border: 1px solid #1444f5;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+  margin-left: 16px;
+  margin-top: 3px;
+  background-color: white;
+}
+#lbtn2 {
+  border: 1px solid #1444f5;
+  border-radius: 5px;
+  margin-left: 65px;
+  padding: 8px;
+  width: 150px;
+  margin-top: 3px;
+  background-color: white;
+}
+#rbtn2 {
+  border: 1px solid #1444f5;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+  margin-left: 16px;
+  margin-top: 3px;
+  background-color: white;
+}
+#lbtn3 {
+  border: 1px solid #1444f5;
+  border-radius: 5px;
+  margin-left: 65px;
+  padding: 8px;
+  width: 150px;
+  margin-top: 3px;
+  background-color: white;
+}
+#rbtn3 {
+  border: 1px solid #1444f5;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+  margin-left: 16px;
+  margin-top: 3px;
+  background-color: white;
+}
+#cloudimg {
+  height: 50px;
+  width: 60px;
+  text-align: center;
+}
+#cl1 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+#cl2 {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+}
+#de {
+  font-weight: bold;
+  padding-top: 9px;
+  padding-left: 45px;
+}
+.lgarrow {
+  padding-left: 20px;
+  display: flex;
+}
+#b {
+  display: flex;
+  padding-left: 105px;
+  position: relative;
+}
+#displayDate {
+  padding-left: 45px;
+  padding-top: 8px;
+  width: 150px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color:black;
+  color:white;
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#inbtndiv{
+  text-align:center;
+}
+#inbtn{
+  background-color:gray;
+  color:white;
+  border:none;
+  border-radius: 10px;
+  padding:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#inbtn:hover{
+  color:black;
+  background-color: white;
+  padding:10px;
+  cursor: pointer;
+}
